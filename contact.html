@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Welcome to New Hotel " />
+    <meta name="keywords" content="hotel, sunabhat, sindhuli" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:768px)"
+      href="css/mobile.css"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/3ef39421e1.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Hotel SBH | Welcome</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <h1 class="logo"><a href="index.html">SBH</a></h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="current" href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+      <div class="container">
+        <h1 class="l-heading"><span class="text-primary">Contact</span>US</h1>
+        <p>Plese fill out the contact form to contact us</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn">Submit here</button>
+        </form>
+      </div>
+    </section>
+    <section id="contact-info" class="bg-dar">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>5 Sindhuli</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h3>Phone</h3>
+          <p>0987654321</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-envelope fa-3x"></i>
+          <h3>Mail</h3>
+          <p>hotelsbh@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <p>Hotel SBH &2022 Sindhuli</p>
+    </footer>
+  </body>
+</html>
